@@ -1,0 +1,61 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+     </script> 
+     
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+            </script> 
+        <style>
+
+        h1 {
+            color:aliceblue; 
+            font-family: 'Pushster', cursive;
+            font-size:40px;
+            font-weight:200;
+              font-style: italic;
+              background-color:grey; 
+              
+        
+        }
+
+body {
+    background-image: url("garden-flowers.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+#myCanvas {
+    margin-top: 30px;
+    border-width: 10px;
+    border-style:solid;
+    border-color:white; 
+background-color:white;
+}
+
+
+        </style>
+
+        
+
+    </head>
+
+<body onload="add()">
+    <center>  
+<h1> Moving Simulation </h1>
+
+
+<canvas id="myCanvas" width="900" height="700" > 
+    </canvas>
+
+    <br>
+    <h1> Note that please press any arrow key to move the player </h1>
+</center>
+
+</body>
+
+<script src="main.js"> </script>
+</html>
